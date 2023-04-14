@@ -1,0 +1,32 @@
+{
+  "name": "fullpage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "imagemin": "imagemin img/* -o dist/img",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run usemin"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "fullpage.js": "^4.0.19"
+  },
+  "devDependencies": {
+    "imagemin-cli": "^5.1.0",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kpatterson23/fullpage-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kpatterson23/fullpage-portfolio/issues"
+  },
+  "homepage": "https://github.com/kpatterson23/fullpage-portfolio#readme",
+  "description": ""
+}
