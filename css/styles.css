@@ -1,0 +1,134 @@
+/* Basic Slide Styling */
+#section0,
+#section1,
+#section2,
+#section3 {
+  background-size: cover;
+  color: white;
+}
+
+.home-text {
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  font-size: 5rem;
+  vertical-align: top;
+}
+
+.home-title {
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  vertical-align: top;
+}
+
+/* Hiding navigation arrows */
+.fp-arrow {
+  display: none;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Title animation */
+.animate__flipInX {
+  animation: flipInX;
+  animation-duration: 2s;
+}
+
+.contact {
+  text-align: right;
+}
+
+/* Background images */
+#hair-salon {
+  background-image: url("../img/hair-salon.png");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#pizza-palace {
+  background-image: url("../img/Pizza-palace.png");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#nucamp {
+  background-image: url("../img/nucamp-site.png");
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#section0 {
+  background-image: url("../img/apple-tech.jpg");
+  background-position: center center;
+  filter: grayscale(100%);
+}
+
+#section1 {
+  background-image: url("../img/contact-bg.jpg");
+  filter: grayscale(50%);
+}
+
+#section2 {
+  background-image: url("../img/experience-bg.jpg");
+  background-position: center center;
+}
+
+#section3 {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  border-top: 3px solid black;
+  text-align: right;
+  width: 100%;
+}
+
+span {
+  background-color: white !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .col-xs-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
